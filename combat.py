@@ -18,22 +18,23 @@ def tour_combat(joueur, monstre):
     degats = random.randint(5, joueur["Attaque"])
     if random.random() < 0.2: # 20% de chance
         degats *= 2
-        print("\n 💥 COUP CRITIQUE")
-    monstre["pv"] -= degats
-    time.sleep(0.8)
-    print(f"\n ⚔️   {joueur['nom']} attaque et inflige {degats} dégats !")
+        monstre["pv"] -= degats
+        print(f"\n ⚔️   {joueur['nom']} attaque et inflige {degats} dégats en COUP CRITIQUE 💥 !")
+    else : # 80% de chance
+        monstre["pv"] -= degats
+        print(f"\n ⚔️   {joueur['nom']} attaque et inflige {degats} dégats !")
 
 
     #le monstre riposste si il est encore en vie
     if monstre["pv"] > 0:
         riposte = random.randint(5, monstre["Attaque"])
         joueur["pv"] -= riposte
-        time.sleep(0.8)
         print(f"\n ⚔️   {monstre['nom']} riposte et inflige {riposte} dégats a {joueur['nom']}")
     else:
         soin = random.randint(10, 25)
         joueur["pv"] = min(joueur["pv"] + soin, 100)
         print(f"{monstre['nom']} est mort et tu te soignes de {soin} pv")
+    time.sleep(0.8)
 
 def afficher_resultat(joueur, monstre):
     if joueur["pv"] <= 0:

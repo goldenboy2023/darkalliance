@@ -2,7 +2,6 @@ from combat import afficher_statut, afficher_resultat, tour_combat
 from personnages import joueur, ennemis 
 
 score = 0
-
 for monstre in ennemis:
     print(f"\n Un {monstre['nom']} approche !")
 
