@@ -1,8 +1,11 @@
+ennemis = [
+    {"nom" : "Gobelin", "pv": 110, "Attaque": 10 },
+    {"nom" : "Orc", "pv": 55, "Attaque": 15 },
+    {"nom" : "Troll", "pv": 60, "Attaque": 20 }
+]
+
 joueur = {
-    "nom": "Arc", 
-    "pv": 100, 
-    "Attaque": 75}
-monstre = {
-    "nom": "Malgrash", 
-    "pv": 95, 
-    "Attaque": 66}
+    "nom": "Erebor",
+    "pv": 65,
+    "Attaque": 50
+}
