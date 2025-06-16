@@ -1,31 +1,34 @@
 # 🧙 Combat Game - Terminal RPG en Python
 
-Petit jeu de combat textuel développé en Python, dans le cadre d'une remise à niveau pour préparer une L3 informatique et un futur master en Génie Industriel, IA & Data.
+> 🛠️ Version : 0.1.0 – Prototype console, logique de base finalisée
 
-## 🎮 Objectif
+---
 
-Affronter une série d'ennemis dans des combats au tour par tour, avec :
+## 🎯 Objectif
 
-- Dégâts aléatoires
-- Coups critiques
-- Système de soins
-- Score final
-- Interface améliorée en console
+Créer un petit jeu de combat en terminal, pour consolider les bases Python et se remettre à niveau en vue d’une L3 informatique orientée génie industriel, data et IA.
 
-## 📦 Fonctionnalités implémentées
+---
 
-- [x] Boucle de combat
-- [x] Liste de vagues d'ennemis
-- [x] Barres de vie textuelles
-- [x] Coups critiques (20% de chances, 2x dégâts)
-- [x] Système de soins (+20 PV après chaque victoire)
-- [x] Score final et message de fin personnalisé
-- [x] Code structuré en modules : `main.py`, `combat.py`, `personnages.py`
+## 🎮 Fonctionnalités actuelles
+
+- [x] Boucle de combat contre une liste d'ennemis
+- [x] Barres de vie lisibles en console
+- [x] Dégâts aléatoires par attaque
+- [x] Coups critiques (20 % de chances, ×2)
+- [x] Système de soin automatique (+20 PV après chaque victoire)
+- [x] Score final affiché à la fin
+- [x] Interface console stylisée (emojis, affichage clair)
+- [x] Code structuré en modules (`main.py`, `combat.py`, `personnages.py`)
+- [x] Projet versionné sur GitHub
+
+---
 
 ## 🚀 Lancer le jeu
 
-Dans un terminal, depuis le dossier du projet :
+Dans un terminal, placez-vous dans le dossier du projet et lancez :
 
 ```bash
 python main.py
+
 ```

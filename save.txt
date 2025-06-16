@@ -1,1 +1,1 @@
-git add . && git commit -m "Sauvegarde rapide" && git push
+git add . ; git commit -m "Sauvegarde rapide" ; git push
