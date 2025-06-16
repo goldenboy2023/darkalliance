@@ -22,6 +22,17 @@ Créer un petit jeu de combat en terminal, pour consolider les bases Python et s
 - [x] Code structuré en modules (`main.py`, `combat.py`, `personnages.py`)
 - [x] Projet versionné sur GitHub
 
+### 🔖 Version 0.2.0 – Menu d’action joueur ajouté (16/06/2025)
+
+- Ajout d’un système de choix interactif :
+  - `1` : Attaquer
+  - `2` : Se soigner (10 à 25 PV)
+  - `3` : Fuir (interrompt la boucle de combat)
+- Gestion des choix invalides
+- Intégration directe dans la boucle de combat
+- Maintien du système de coups critiques, score, barres de vie
+- Jeu désormais **interactif et stratégique**
+
 ---
 
 ## 🚀 Lancer le jeu
